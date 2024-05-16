@@ -1,0 +1,6 @@
+npm create vite@latest
+then choose react
+then with js
+then cd to change directory
+then npm install
+then npm run dev
