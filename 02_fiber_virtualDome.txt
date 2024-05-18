@@ -1,0 +1,11 @@
+hooks are used to update the ui in different places on webpage by one action
+
+
+
+
+read more about fiber architecture from here : https://github.com/acdlite/react-fiber-architecture
+
+createRoot : this method create dom like structure behind the scene;
+bcs this dom compare itself with main dom which is created by browser and whenever, we do something on website the changes will reflect on virtual dom and then virtual compare itself with main dom then which changes occurs in virtual dom it will reflect those changes in real dom; it help to create single page website without reload ;
+
+but in pure js , at every changes the page got refreshed bcs browser recreate the whole dom;
